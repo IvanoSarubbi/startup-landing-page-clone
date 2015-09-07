@@ -6,3 +6,27 @@ div {
 
 	border: 1px solid Chocolate;
 }
+
+.logo{
+    float:left;
+	height: 5em;
+	width:5em;
+	padding-left:6em;
+	padding-top: 2em;
+}
+
+.navigation{
+	text-align: center;
+    float:right;
+	text-decoration: none;
+	
+}
+
+ li{
+font-size: 2em;	
+display: inline;
+text-decoration: none;
+padding-top: 2em;
+padding-right:2em;
+
+}
