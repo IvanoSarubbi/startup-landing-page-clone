@@ -8,10 +8,13 @@ body {
 .top_navigation > .content{
 width:60em;
 height:4.5em;
- margin: 0 auto;
+margin: 0 auto;
+padding: 0 1em;
 }
 
 .logo{
-	margin-left: 20em;
-
+	margin-top:auto;
+	padding:1.5em;
 }
+
+
