@@ -1,32 +1,17 @@
 body {
 	background-color: LightGray;
 }
-
-div {
-
-	border: 1px solid Chocolate;
+.top_navigation{
+	background-color: white;
+	
+}
+.top_navigation > .content{
+width:60em;
+height:4.5em;
+ margin: 0 auto;
 }
 
 .logo{
-    float:left;
-	height: 5em;
-	width:5em;
-	padding-left:6em;
-	padding-top: 2em;
-}
-
-.navigation{
-	text-align: center;
-    float:right;
-	text-decoration: none;
-	
-}
-
- li{
-font-size: 2em;	
-display: inline;
-text-decoration: none;
-padding-top: 2em;
-padding-right:2em;
+	margin-left: 20em;
 
 }
