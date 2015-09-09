@@ -1,6 +1,11 @@
 body {
 	background-color: LightGray;
 }
+.content{
+padding:0em 1em;
+
+
+}
 .top_navigation{
 	background-color: white;
 	
@@ -9,12 +14,56 @@ body {
 width:60em;
 height:4.5em;
 margin: 0 auto;
-padding: 0 1em;
+
 }
 
 .logo{
 	margin-top:auto;
-	padding:1.5em;
+	
 }
+
+.top_navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+font-size: 16px;
+color: #838994;
+letter-spacing: 0.03em;
+-webkit-font-smoothing: antialiased;
+
+    
+ }
+
+.links > li{
+display:inline-block;
+margin:1em;
+}
+
+.links > .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+
+.links > .active > a:hover{
+
+	color:#000;
+}
+.links > .active > a{
+    color: #4c5058;
+    font-weight: 500;
+}
+
+a:link {
+  color: #838994;
+  text-decoration: none;
+}
+
+
+
+a:hover {
+  color: #000;
+}
+
+
 
 
