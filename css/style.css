@@ -22,6 +22,9 @@ box-sizing:border-box;
 
 .top_navigation{
 	background-color: white;
+	position:fixed;
+	width:100%;
+	z-index: 9999;
 }
 
 .top_navigation > .content{
@@ -134,41 +137,39 @@ color: #ea3a00;
 
 }
 
-.cases{
-background-color: white;
-height:30em;
-}
+
 
 .content > .icon_introduction{
 text-align: center;	
 color:black;
-letter-spacing: 0.02em;
+letter-spacing: 0.01em;
 -webkit-font-smoothing: antialiased;
-font-size: 3em;
-font-weight: 300;
+font-size: 2.5em;
+font-weight: 200;
 margin-top:0;
 padding-top: 3em;
+}
 
+
+.icons-text{
+margin:0 25em;
 }
 
 .devices{
-box-sizing:border-box;
-border: 1px solid black;
-width:4em;
-height:4em;
-}
-
-.cases .devices{
-width:33%;
-display:inline-block;
-margin-right: -4px;
-}
-
-.devices > h3{
+vertical-align: top;
+display: inline-block;
 text-align: center;
-font-weight: 100;
-font-size: 1.5em;
-
+box-sizing:border-box;
+padding:4em;
+float:center;
 }
 
 
+
+.caption > h3{
+display: block;
+text-align: center;
+font-weight: 200;
+font-size: 1.5em;
+font-family: 'Roboto', sans-serif;
+}
