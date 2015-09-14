@@ -192,6 +192,13 @@ display: block;
 }
 
 
+.social .content{
+text-align: center;
 }
 
+.social .content > ul{
+
+  display:inline;
+  text-decoration: none;
+}
 
